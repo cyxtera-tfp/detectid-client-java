@@ -1,0 +1,25 @@
+package net.easysol.detectid.web.service;
+
+/**
+ * Created by dbellon on 2/8/18.
+ */
+public class AlternativeSharedKey {
+    private String name;
+    private String value;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getValue() {
+        return value;
+    }
+
+    public void setValue(String value) {
+        this.value = value;
+    }
+}
