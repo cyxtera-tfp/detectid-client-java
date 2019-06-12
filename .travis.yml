@@ -8,10 +8,7 @@ deploy:
   api_key:
     secure: sFzhQteHTef9p9oyJIi/qAqXkLHMDWIcaIXMr8EdDqHTwknbJCbh573UZNKPy1YhEP7CePTkNe0iQ1WEUYoocCwRFZenDToS0nsNNc7RaW39H06jspoHSujTk40K3/itDjEKxddxQxwunTptmAlyHPsjQs8wz9iMxbMTBAzuHz4qZGqlJhVFVKcbNOWtEczpEZ0bS7gPy/iVc0lFkAvNHpVZlze4UVI0yrr4CS1KeqJlPFxLQTaZHXmsy/gmrxdTBWP5gNIglMWeOhVld+qxkPI9IOUysj/M+QgX3/v+WTb6VcqrVGftijtqG+Mfognqjg8c4sWGNQ4txlLWDewHhq/bgSCUY5o+thEgwKYTRVIPVylAJdTqB9QSnWu8JcTW4SgsHZUfUR1ZNfPnoaW5thDCOEz63qSmPrRg3p3GYdiqr3PCchzrkCQheSlGoD0olEpUuv+YPx2aaJtnRticXvqQOL069crNpxIdddjqOrwBOJude4sitTnOPw0kJQ/Jva6Zt/pFfcZE7cVsM9naA1aP6twF8bzQHxt0OPpgIYh4ZeWV+SslOWElqAhGuFNiqYgZpooBZifHfbDidp2xo/ylf8dJioyDJFfYrdRlviaMK2vgOtt3OTAxFyEz/hiBrhDLmHLII5CusJDjp/QRNin4VTKGyrz1vzSefWq9r4g=
   file:
-    - detectid-client-java/target/detectid-client-*.jar
-    - target/detectid-client-*.jar
-    - detectid-client-*.jar
-    - **.jar
+    - */**.jar
   on:
     repo: cyxtera-tfp/detectid-client-java
     branch: development
