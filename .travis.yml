@@ -15,4 +15,4 @@ deploy:
   on:
     repo: cyxtera-tfp/detectid-client-java
     branch: development
-  name: $project_version
+  name: Release_$project_version
