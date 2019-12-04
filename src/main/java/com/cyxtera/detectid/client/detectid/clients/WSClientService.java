@@ -1,13 +1,13 @@
 package com.cyxtera.detectid.client.detectid.clients;
 
 import com.cyxtera.detectid.client.detectid.web.service.DetectIDConfiguration;
-import com.cyxtera.detectid.client.detectid.web.service.WebServiceBase;
+import com.cyxtera.detectid.client.detectid.web.service.SOAPWebServiceBase;
 import com.cyxtera.detectid.client.detectid.web.service.WebServiceException;
 
 /**
  * Created by Jgutierrez on 19/05/2017.
  */
-public class WSClientService extends WebServiceBase {
+public class WSClientService extends SOAPWebServiceBase {
 
     private static final String SERVICE = "WSClientService";
     private static final String URI = "http://soap.easysol.net/detect/detectService";

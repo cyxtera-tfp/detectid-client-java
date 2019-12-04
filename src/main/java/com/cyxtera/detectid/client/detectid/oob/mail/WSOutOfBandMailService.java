@@ -1,13 +1,13 @@
 package com.cyxtera.detectid.client.detectid.oob.mail;
 
-import com.cyxtera.detectid.client.detectid.web.service.WebServiceBase;
+import com.cyxtera.detectid.client.detectid.web.service.SOAPWebServiceBase;
 import com.cyxtera.detectid.client.detectid.web.service.WebServiceException;
 import com.cyxtera.detectid.client.detectid.web.service.DetectIDConfiguration;
 
 /**
  * Created by Jgutierrez on 24/05/2017.
  */
-public class WSOutOfBandMailService extends WebServiceBase {
+public class WSOutOfBandMailService extends SOAPWebServiceBase {
 
     private static final String SERVICE = "WSOutOfBandMailService";
     private static final String URI = "http://soap.easysol.net/detect/mailService";

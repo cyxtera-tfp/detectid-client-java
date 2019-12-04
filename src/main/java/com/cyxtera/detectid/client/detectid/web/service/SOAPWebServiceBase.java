@@ -23,9 +23,9 @@ import java.io.StringWriter;
 /**
  * Created by Jgutierrez on 10/03/2017.
  */
-public abstract class WebServiceBase {
+public abstract class SOAPWebServiceBase {
 
-    private final Log logger = LogFactory.getLog(WebServiceBase.class);
+    private final Log logger = LogFactory.getLog(SOAPWebServiceBase.class);
 
     private DetectIDConfiguration detectIDConfiguration;
 
@@ -39,7 +39,7 @@ public abstract class WebServiceBase {
             "   <soapenv:Body>${BODY}</soapenv:Body>" +
             "</soapenv:Envelope>";
 
-    public WebServiceBase(DetectIDConfiguration detectIDConfiguration) {
+    public SOAPWebServiceBase(DetectIDConfiguration detectIDConfiguration) {
         this.detectIDConfiguration = detectIDConfiguration;
         buildUrl();
         loadCloudEnvironment();
