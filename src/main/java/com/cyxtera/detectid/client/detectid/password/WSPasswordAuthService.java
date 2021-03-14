@@ -1,13 +1,13 @@
 package com.cyxtera.detectid.client.detectid.password;
 
-import com.cyxtera.detectid.client.detectid.web.service.WebServiceBase;
+import com.cyxtera.detectid.client.detectid.web.service.SOAPWebServiceBase;
 import com.cyxtera.detectid.client.detectid.web.service.DetectIDConfiguration;
 import com.cyxtera.detectid.client.detectid.web.service.WebServiceException;
 
 /**
  * Created by Jgutierrez on 1/08/2017.
  */
-public class WSPasswordAuthService extends WebServiceBase {
+public class WSPasswordAuthService extends SOAPWebServiceBase {
 
     private static final String SERVICE = "WSPasswordAuthService";
     private static final String URI = "http://soap.easysol.net/detect/passwordAuthService";

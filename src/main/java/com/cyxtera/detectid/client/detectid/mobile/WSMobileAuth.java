@@ -1,13 +1,13 @@
 package com.cyxtera.detectid.client.detectid.mobile;
 
 import com.cyxtera.detectid.client.detectid.web.service.DetectIDConfiguration;
-import com.cyxtera.detectid.client.detectid.web.service.WebServiceBase;
+import com.cyxtera.detectid.client.detectid.web.service.SOAPWebServiceBase;
 import com.cyxtera.detectid.client.detectid.web.service.WebServiceException;
 
 /**
  * Created by Jgutierrez on 10/03/2017.
  */
-public class WSMobileAuth extends WebServiceBase {
+public class WSMobileAuth extends SOAPWebServiceBase {
 
     private static final String SERVICE = "WSDetectMobileAuthService";
     private static final String URI = "http://soap.easysol.net/detect/mobileAuthService";
